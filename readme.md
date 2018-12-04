@@ -10,7 +10,7 @@ The only file that has been provided is a module with the data. The rest is up t
 
 ## Completion
 
-Parts 1 - 3.
+Parts 1 and 2.
 
 ## Assignment
 
@@ -36,21 +36,13 @@ You will have 1 controller. It will handle all of the `/angry_birds` routes.
 - When you go to `/angry_birds/` it should get all of the angry birds from the angry bird module and render the `angry_birds/index.html` view.
 - When you go to `/angry_birds/:id` it should get that individual bird from the angry bird module and render the `angry-birds/show.html` view.
 
+
 #### Views
 
 You should end up with 3 views.
 - `index.html` a home page with a link to `/angry_birds`
 - `angry_birds/index.html` This view should have each bird's name and image visible, as well as a link to each bird's show page (`/angry_birds/:id`). There should also be a link back to `/`.
 - `angry_birds/show.html` This should have a individual bird's name, ability, image, and group visible on the page as well as links back to `/` and `/angry_birds`
-
-### Part 3 - Styling
-
-- Create a `style.css` file in your public directory
-- Link the file to your views
-- Style your pages! Make it look nice. Aim for this](https://www.lingscars.com/) if you need inspiration.
-    - Include any images you want or other elements you want (maybe even some [gifs](https://giphy.com/))
-    - Maybe some CSS Hover effects
-    - [Gradients](http://www.colorzilla.com/gradient-editor/)? [Animated gradients](https://www.gradient-animator.com/)!?
 
 ### Bonus - Filtering
 
